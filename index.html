@@ -350,13 +350,6 @@ var blogURL = "";</script>
               </a>
             </h1>
 
-            <!-- search-bar for PC -->
-						<div class="util use-top">
-							<div class="search">
-							<input class="searchInput" type="text" name="search" value="" placeholder="Search..." onkeypress="if (event.keyCode == 13) { requestSearch('.util.use-top .searchInput') }"/>
-							</div>
-						</div>
-
 
           </div>
 
@@ -928,6 +921,13 @@ var blogURL = "";</script>
                 </div>
               
 
+						<!-- search-bar for MOBILE -->
+						<div class="util use-sidebar">
+							<div class="search">
+                <label for="searchInput" class="screen_out">블로그 내 검색</label>
+								<input id="searchInput" class="searchInput" type="text" name="search" value="" placeholder="검색내용을 입력하세요." onkeypress="if (event.keyCode == 13) { requestSearch('.util.use-sidebar .searchInput') }">
+							</div>
+						</div>
 
           </aside>
           <!-- // aside -->
